@@ -2,13 +2,19 @@
 
 # The script will assume that git and openssh is install and that you added your public key to your github account
 
+# video
+mesa
+xf86-video-ati
+lib32-mesa
+mesa-vdpau
+lib32-mesa-vdpau
+
 # Base
 base-devel
+pacman-contrib
 vim
 neovim
 zsh
-oh-my-zsh
-p10k
 python3
 python-pip
 
@@ -22,7 +28,7 @@ sxhkd
 picom
 noto-fonts
 rofi
-polybar # Before compiling, make sure you have pkg-config, cairo, libxcb, python3,xcb-util-image-xcb-util-wm, python-sphinx
+polybar # Before compiling, make sure you have pkg-config, cairo, libxcb, python3,xcb-util-image-xcb-util-wm, python-sphinx, xcb-xkb, alsa-lib, libpulse, libmpdclient, libcurl, libnl-genl or wireless-tools, xcb-util-cursor, xcb-util-xrm
 polybar-spotify # need python-dbus, python-dbus-common
 alacritty
 feh
@@ -34,10 +40,11 @@ bitwarden
 thunar
 
 # Utility
-
+exa
 unzip
 xclip
-
+tty-clock
+brightnessctl
 
 # networking
 

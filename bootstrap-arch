@@ -10,7 +10,7 @@ echo " "
 
 # Setting up YAY
 echo "Setting up YAY helper"
-cd ~/.congig
+cd ~/.config
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
@@ -24,7 +24,6 @@ mkdir repository
 cd repository
 git clone git@github.com:jaygoppers/dotfiles.git
 git clone git@github.com:jaygoppers/startpages.git
-
 cd ~
 mkdir Media
 cd Media
