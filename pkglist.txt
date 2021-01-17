@@ -1,0 +1,49 @@
+# This is a list of package to install after base install of Arch
+
+# The script will assume that git and openssh is install and that you added your public key to your github account
+
+# Base
+base-devel
+vim
+neovim
+zsh
+oh-my-zsh
+p10k
+python3
+python-pip
+
+
+# Desktop package
+light-dm
+light-dm-gtk-greeter
+xorg
+bspwm
+sxhkd
+picom
+noto-fonts
+rofi
+polybar # Before compiling, make sure you have pkg-config, cairo, libxcb, python3,xcb-util-image-xcb-util-wm, python-sphinx
+polybar-spotify # need python-dbus, python-dbus-common
+alacritty
+feh
+
+# application
+firefox
+spotify
+bitwarden
+thunar
+
+# Utility
+
+unzip
+xclip
+
+
+# networking
+
+networkmanager
+wpa_supplicant
+nm-applet
+
+
+
